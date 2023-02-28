@@ -1,11 +1,16 @@
 import Seoul from './seoul.png';
 import Rest from './rest.png';
+import Korea from './korea_transparent.png';
 
 function pageLoad() {
     const div = document.createElement('div')
     const h1 = document.createElement('h1')
     const p = document.createElement('p')
     const btn = document.createElement('button')
+    const hero = document.createElement('div')
+    const navhold = document.createElement('div')
+    navhold.classList.add('navhold')
+    hero.classList.add('hero')
     btn.textContent = 'Menu'
     const btnhold = document.createElement('div')
     btnhold.classList.add('btnhold')
@@ -14,7 +19,8 @@ function pageLoad() {
     const nav = document.createElement('div')
     const img = document.createElement('img');
     img.src = Seoul;
-    nav.appendChild(img)
+    navhold.appendChild(img)
+    nav.appendChild(navhold)
     const ul = document.createElement('ul')
     ul.classList.add('nav')
     for (let i = 0; i < 3; i++) {
@@ -32,12 +38,27 @@ function pageLoad() {
     p.textContent = 'Check out our Menu!'
     btnhold.appendChild(p)
     btnhold.appendChild(btn)
+    hero.appendChild(h1)
+    hero.appendChild(btnhold)
     content.appendChild(img1)
-    nav.appendChild(ul)
+    navhold.appendChild(ul)
+    const krnimg = new Image();
+    krnimg.src = Korea;
+    krnimg.classList.add('flag')
+    nav.appendChild(krnimg)
     div.appendChild(nav)
-    div.appendChild(h1)
-    div.appendChild(btnhold)
+    div.appendChild(hero)
     content.appendChild(div)
+    const curve = document.createElement('div')
+    curve.classList.add('curve')
+    div.appendChild(curve)
+
+    // footer
+    const footer = document.createElement('div')
+    footer.classList.add('footer')
+    const date = new Date().getFullYear();
+    footer.innerHTML = `Kyle Park Est. ${date}`
+    content.appendChild(footer)
 }
 
 

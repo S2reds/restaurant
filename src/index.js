@@ -3,7 +3,7 @@ import './style.css';
 
 pageLoad();
 
-
-const navItems = [{
-
-}]
+const menubtn = document.querySelector('button')
+menubtn.addEventListener('click', (e) => {
+    console.log(e)
+})
