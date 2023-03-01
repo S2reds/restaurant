@@ -13,6 +13,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Mona Sans', 'Courier New';
+    text-shadow: 0px 0px 5px #000000;
 }
 
   
@@ -34,6 +35,7 @@ body {
         "nav"
         "body";
     border: 25px double white;
+    gap: 15px;
 }
 
 .nav {
@@ -76,7 +78,7 @@ body {
 }
 
 .hero {
-    padding-left: 25%;
+    padding-left: 20%;
     padding-top: 10%;
     margin-top: 2%;
     background-color: #991b1b;
@@ -97,7 +99,7 @@ body {
     font-style: italic;
     font-size: 2rem;
     letter-spacing: .1rem;
-    gap: 160px;
+    gap: 50px;
     align-items: center;
     text-shadow: 0px 0px 5px #000000;
     
@@ -157,13 +159,43 @@ a:hover {
 }
 
 .footer {
-    width: 97%;
-    position: absolute;
+    width: 100%;
+    position: fixed;
     text-align: center;
     padding: 10px 0;
-    margin-left: 25px;
     font-size: 1.5rem;
-    bottom: 25px;
     background-color: #991b1b;
     color: white;
+    bottom: 0;
+}
+
+.menulist {
+    align-self: center;
+    justify-self: center;
+    background-color: #991b1b;
+    width: 800px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    padding: 25px;
+    line-height: 50px;
+    color: white;
+    grid-area: body;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menulist p {
+    font-size: 1rem;
+}
+
+.menulist img {
+    width: 500px;
+    border-radius: 50px;
+}
+
+.smaller-nav {
+    width: 250px;
+    font-size: 1rem;
 }

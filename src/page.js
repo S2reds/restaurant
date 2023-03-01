@@ -12,6 +12,7 @@ function pageLoad() {
     navhold.classList.add('navhold')
     hero.classList.add('hero')
     btn.textContent = 'Menu'
+    btn.classList.add('btn')
     const btnhold = document.createElement('div')
     btnhold.classList.add('btnhold')
     const content = document.querySelector('body')
