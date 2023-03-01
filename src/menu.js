@@ -4,8 +4,6 @@ import Bulgogi from './bulgogi.jpg';
 import Bibi from './bibimbap.jpg';
 import Galbi from './galbi.jpg';
 
-
-
 const FOOD = [
     {
         'name': 'Kimbap',
