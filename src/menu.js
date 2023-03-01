@@ -62,9 +62,9 @@ function menuPage() {
         }
     }
     const clearOld = () => {
-        curve.style.visibility = 'hidden'
-        hero.style.visibility = 'hidden'
-        backimg.style.visibility = 'hidden'
+        curve.style.display = 'none'
+        hero.style.display = 'none'
+        backimg.style.display = 'none'
     }
     return {
         newItem,

@@ -5,11 +5,14 @@ import {menuPage, FOOD} from './menu.js';
 
 pageLoad();
 
+const body = document.querySelector('body')
+const content = document.querySelector('.content')
 const menubtn = document.querySelector('.btn')
 menubtn.addEventListener('click', (e) => {
     const menu = menuPage();
     menu.clearOld()
     menu.newDiv();
+    body.style.height = '380vh';
     for (let i in FOOD) {
         menu.newItem(FOOD[i])
     }

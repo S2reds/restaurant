@@ -16,26 +16,22 @@
     text-shadow: 0px 0px 5px #000000;
 }
 
-  
-
-.content {
-    background-color: #b91c1c;
-}
 
 body {
-    height: 100vh;
+    background-color: #b91c1c;
+    border: 25px double white;
     position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .content {
-    display: grid;
-    height: 100vh;
-    grid-template-rows: 1fr 12fr;
-    grid-template-areas: 
-        "nav"
-        "body";
-    border: 25px double white;
+    display: flex;
+    flex-direction: column;
     gap: 15px;
+    justify-content: start;
 }
 
 .nav {
@@ -72,7 +68,7 @@ body {
     width: 1000px;
     transform: scaleX(-1);
     bottom: 0px;
-    right: 25px;
+    right: 0;
     opacity: 80%;
     z-index: 999;
 }
@@ -83,6 +79,7 @@ body {
     margin-top: 2%;
     background-color: #991b1b;
     border-top-left-radius: 1000px;
+    height: 650px;
 }
 
 .hero > h1 {
@@ -153,20 +150,24 @@ a:hover {
     z-index: 9;
     width: 700px;
     height: 300px;
-    right: 25px;
+    right: 0;
     top: 25px;
     border-top-left-radius: 1000px;
 }
 
 .footer {
-    width: 100%;
+
     position: fixed;
     text-align: center;
-    padding: 10px 0;
-    font-size: 1.5rem;
+    padding: 10px;
+    font-size: 1.2rem;
     background-color: #991b1b;
     color: white;
     bottom: 0;
+    right: 25px;
+    border-radius: 50px;
+    display: flex;
+    gap: 10px;
 }
 
 .menulist {
@@ -184,11 +185,19 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 10px;
 }
 
 .menulist p {
     font-size: 1rem;
 }
+
+.menulist div {
+    background-color: #b91c1c;
+    border-radius: 50px;
+    padding: 25px;
+}
+
 
 .menulist img {
     width: 500px;
