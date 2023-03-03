@@ -36,7 +36,6 @@ const FOOD = [
 function menuPage() {
     const content = document.querySelector('.content')
     const hero = document.querySelector('.hero')
-    const curve = document.querySelector('.curve')
     const backimg = document.querySelector('.backimg')
     const div = document.createElement('div')
 
@@ -60,8 +59,7 @@ function menuPage() {
         }
     }
     const clearOld = () => {
-        curve.style.display = 'none'
-        hero.style.display = 'none'
+        content.innerHTML = ''
         backimg.style.display = 'none'
     }
     return {
