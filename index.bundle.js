@@ -185,7 +185,7 @@ const FOOD = [
     {
         'name': 'Kimbap',
         'desc': 'A sushi-like rice roll filled with vegetables and meat',
-        'url': _Kimbap_jpg__WEBPACK_IMPORTED_MODULE_0__,
+        'url': "./c147d43b1125e75c56ca.jpg"
     },
     {
         'name': 'Gamjatang',
