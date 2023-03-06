@@ -3,8 +3,8 @@
   \*****************************************************************/
 @font-face {
   font-family: "Mona Sans";
-  src: url(955a87eb3766a32ac970.woff2) format("woff2 supports variations"),
-    url(955a87eb3766a32ac970.woff2) format("woff2-variations");
+  src: url("./955a87eb3766a32ac970.woff2") format("woff2 supports variations"),
+    url("./955a87eb3766a32ac970.woff2") format("woff2-variations");
   font-weight: 200 900;
   font-stretch: 75% 125%;
 }
@@ -19,7 +19,7 @@
 }
 
 body {
-  background: url(b901680c304aeabad0be.jpg) 0 0 no-repeat;
+  background: url("./b901680c304aeabad0be.jpg") 0 0 no-repeat;
   background-size: cover;
   /* border: 25px double white; */
   position: relative;
