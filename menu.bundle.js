@@ -98,7 +98,7 @@ function menuPage() {
   \************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "c147d43b1125e75c56ca.jpg";
+module.exports = __webpack_require__.p + "./c147d43b1125e75c56ca.jpg";
 
 /***/ }),
 
@@ -108,7 +108,7 @@ module.exports = __webpack_require__.p + "c147d43b1125e75c56ca.jpg";
   \**************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "66218df57f31cacc4910.jpg";
+module.exports = __webpack_require__.p + "./66218df57f31cacc4910.jpg";
 
 /***/ }),
 
@@ -118,7 +118,7 @@ module.exports = __webpack_require__.p + "66218df57f31cacc4910.jpg";
   \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "236ba187eefba8f85524.jpg";
+module.exports = __webpack_require__.p + "./236ba187eefba8f85524.jpg";
 
 /***/ }),
 
@@ -128,7 +128,7 @@ module.exports = __webpack_require__.p + "236ba187eefba8f85524.jpg";
   \***********************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "40cc2f245f917dca8c62.jpg";
+module.exports = __webpack_require__.p + "./40cc2f245f917dca8c62.jpg";
 
 /***/ }),
 
@@ -138,7 +138,7 @@ module.exports = __webpack_require__.p + "40cc2f245f917dca8c62.jpg";
   \***********************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "9991fdcdd4b6d8c600a7.jpg";
+module.exports = __webpack_require__.p + "./9991fdcdd4b6d8c600a7.jpg";
 
 /***/ })
 
