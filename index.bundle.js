@@ -190,22 +190,22 @@ const FOOD = [
     {
         'name': 'Gamjatang',
         'desc': 'Gamjatang is soup made with pork neck bones and vegetables, a perfect meal for a cold day',
-        'url': _gamja_jpg__WEBPACK_IMPORTED_MODULE_1__,
+        'url': "./9991fdcdd4b6d8c600a7.jpg"
     },
     {
         'name': 'Galbi',
         'desc': 'Galbi, also known as kalbi, is a Korean dish that consists of marinated beef short ribs that are grilled or broiled to perfection.',
-        'url': _galbi_jpg__WEBPACK_IMPORTED_MODULE_4__,
+        'url': "./40cc2f245f917dca8c62.jpg"
     },
     {
         'name': 'Bibimbap',
         'desc': 'Bibimbap is a Korean rice dish that is topped with a variety of vegetables, meat (usually beef), and a fried egg.',
-        'url': _bibimbap_jpg__WEBPACK_IMPORTED_MODULE_3__,
+        'url': "./66218df57f31cacc4910.jpg"
     },
     {
         'name': 'Bulgogi',
         'desc': 'Bulgogi is a popular Korean beef dish that is marinated in a mixture of soy sauce, sugar, garlic, and other spices, then grilled or pan-fried.',
-        'url': _bulgogi_jpg__WEBPACK_IMPORTED_MODULE_2__,
+        'url': "./236ba187eefba8f85524.jpg"
     }
 ]
 
@@ -286,7 +286,7 @@ function pageLoad() {
   const nav = document.createElement("div");
   nav.classList.add("navbar");
   const img = document.createElement("img");
-  img.src = _seoul_png__WEBPACK_IMPORTED_MODULE_0__;
+  img.src = "./856c1661ee5091b83ba0.png";
   navhold.appendChild(img);
   nav.appendChild(navhold);
   const ul = document.createElement("ul");
@@ -301,7 +301,7 @@ function pageLoad() {
   }
   const img1 = new Image();
   img1.classList.add("backimg");
-  img1.src = _rest_png__WEBPACK_IMPORTED_MODULE_1__;
+  img1.src = "./36c639340324b6066489.png";
   h1.textContent = "Seoul Bistro";
   p.textContent = "Check out our Menu!";
   btnhold.appendChild(p);
@@ -311,7 +311,7 @@ function pageLoad() {
   content.appendChild(img1);
   navhold.appendChild(ul);
   const krnimg = new Image();
-  krnimg.src = _korea_transparent_png__WEBPACK_IMPORTED_MODULE_2__;
+  krnimg.src = "./df95b809fb076ba3fff3.png";
   krnimg.classList.add("flag");
   nav.appendChild(krnimg);
   content.appendChild(nav);
@@ -351,7 +351,7 @@ module.exports = __webpack_require__.p + "c147d43b1125e75c56ca.jpg";
   \**************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "66218df57f31cacc4910.jpg";
+module.exports = __webpack_require__.p + "./66218df57f31cacc4910.jpg";
 
 /***/ }),
 
